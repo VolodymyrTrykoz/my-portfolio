@@ -12,9 +12,9 @@ const App = () => {
         <div className="container">
           <Header />
           <Switch>
-            <Route path="/" exact component={Home}/>
-            <Route path="/projects" exact component={Projects}/>
-            <Route path="/contacts" exact component={Contacts}/>
+            <Route path="/my-portfolio" exact component={Home}/>
+            <Route path="/my-portfolio/projects" exact component={Projects}/>
+            <Route path="/my-portfolio/contacts" exact component={Contacts}/>
           </Switch>
         </div>
       </div>

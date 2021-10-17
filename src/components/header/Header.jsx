@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
 const Header = () => (
   <div className="header">
     <nav className="navigation">
-      <Link to={'/'} className="navigation__link">Home</Link>
-      <Link to={'/projects'} className="navigation__link">Projects</Link>
-      <Link to={'/contacts'} className="navigation__link">Contacts</Link>
+      <Link to={'/my-portfolio'} className="navigation__link">Home</Link>
+      <Link to={'/my-portfolio/projects'} className="navigation__link">Projects</Link>
+      <Link to={'/my-portfolio/contacts'} className="navigation__link">Contacts</Link>
     </nav>
   </div>
 )
